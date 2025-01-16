@@ -6,5 +6,10 @@ const alunos = new AlunoController()
 
 alunos.listarAluno();
 
-alunos.adicionarAluno('Fulano','fulano@gmail,com','84999999999','a93214','enfermagem')
+// alunos.adicionarAluno('Fulano','fulano@gmail,com','84999999999','a93214','enfermagem')
 alunos.listarAluno();
+
+
+alunos.editarAluno('a93214', 'Editado com coalesce',null,null,null)
+
+alunos.excluirAluno('a93214')
